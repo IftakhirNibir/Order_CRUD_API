@@ -26,16 +26,35 @@ pip install -r requirement.txt
 ```bash
 cd OrdersAPI
 ```
-8. Now run the server
+9. Now run the server
 ```bash
 py manage.py runserver
 ```
-9. Open the browser and go 
+10. Open the browser and go 
 ```bash
 http://127.0.0.1:8000/orders.json
 ```
 This link shows us all order details in a JSON file
-10. If we want to get a piece of specific order information we need to open the browser and 
+11. If we want to get a piece of specific order information we need to open the browser and write product_id
 ```bash
-http://127.0.0.1:8000/order_details/{product_id}.json
+http://127.0.0.1:8000/order_detail/{product_id}.json
 ```
+12. To see the API Documentation then go to this link 
+```bash
+http://127.0.0.1:8000/swagger/
+```
+## To test API endpoints
+1. Go to the main project folder and open another terminal then activate the virtual environment and write for install jupyter notebook
+```bash
+pip install notebook
+```
+2. Open the project folder
+```bash
+cd Order_CRUD_API
+```
+3. Open Jupyter Notebook by writing
+```bash
+jupyter notebook
+```
+4. Select Testing_API.ipynb file and run all 
+
