@@ -22,6 +22,10 @@ cd Order_CRUD_API
 ```bash
 pip install -r requirement.txt
 ```
+8. Open "OrdersAPI" folder
+```bash
+cd OrdersAPI
+```
 8. Now run the server
 ```bash
 py manage.py runserver
