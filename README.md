@@ -1,4 +1,6 @@
 # Order Details CRUD API
+## A live link to the application (json file)
+<a href="https://iftynibir.pythonanywhere.com/orders.json">https://iftynibir.pythonanywhere.com/orders.json<a/>
 ## Ways to set up and run projects.
 1. First, you need to install Python and pip on your local machine
 2. Create a folder and open the terminal in that folder
