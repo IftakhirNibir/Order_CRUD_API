@@ -16,7 +16,7 @@ git clone https://github.com/IftakhirNibir/Order_CRUD_API.git
 ```
 6. Open the project folder
 ```bash
-cd OrderAPI
+cd Order_CRUD_API
 ```
 7. Install the required prerequisites using
 ```bash
